@@ -27,7 +27,7 @@ window.onload = function() {
     var uuid = liveconfigGetQueryParam('lc_uuid');
     var watchtoken = liveconfigGetQueryParam('lc_watchtoken');
     if (uuid && watchtoken) {
-        var connection = new WebSocket("wss://pi.fletchto99.com/liveconfig/forward/"+uuid+"/" + watchtoken);
+        var connection = new WebSocket("wss://liveconfig.fletchto99.com/forward/"+uuid+"/" + watchtoken);
         connection.onopen = function() {
             [].forEach.call(document.getElementsByClassName("liveconfig"), function(elem) {
                 elem.oninput = function() {

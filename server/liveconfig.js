@@ -7,8 +7,10 @@ require('express-ws')(app);
 var connections = [];
 
 app.get('/', function (request, response) {
-    response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Nothing to see here move along...");
+    response.writeHead(302, {
+        'Location': 'https://github.com/fletchto99/pebble-liveconfig'
+    });
+    response.end();
 });
 
 app.param('uuid', function (req, res, next, uuid) {

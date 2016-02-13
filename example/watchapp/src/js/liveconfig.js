@@ -10,7 +10,7 @@ liveconfig.connect = function(uuid, onChange) {
     if (!uuid) {
         throw new Error("Liveconfig requires a uuid UUID!");
     }
-    var websocket = new WebSocket("wss://pi.fletchto99.com/liveconfig/receive/"+uuid+"/"+Pebble.getWatchToken());
+    var websocket = new WebSocket("wss://liveconfig.fletchto99.com/receive/"+uuid+"/"+Pebble.getWatchToken());
 
     websocket.onopen = function() {
         console.log("opened");

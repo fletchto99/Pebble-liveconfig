@@ -3,7 +3,7 @@
   "shortName": "Liveconfig Demo",
   "longName": "Liveconfig Demo",
   "companyName": "Matt Langlois",
-  "versionLabel": "1.0",
+  "versionLabel": "1.01",
   "sdkVersion": "3",
   "targetPlatforms": ["aplite", "basalt", "chalk"],
   "enableMultiJS": true,
