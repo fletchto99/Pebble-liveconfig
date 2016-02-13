@@ -1,0 +1,22 @@
+{
+  "uuid": "c0d8a008-a58d-4b4d-85a1-33923f3af72d",
+  "shortName": "Liveconfig Demo",
+  "longName": "Liveconfig Demo",
+  "companyName": "Matt Langlois",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "enableMultiJS": true,
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "TEXT_KEY": 0
+  },
+  "resources": {
+    "media": []
+  },
+  "capabilities": [
+    "configurable"
+  ]
+}

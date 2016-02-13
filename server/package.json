@@ -1,0 +1,20 @@
+{
+  "name": "liveconfig",
+  "version": "1.0.0",
+  "description": "Enables Pebble developers to create applications who's configuration page changes are reflected in realtime.",
+  "main": "liveconfig.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fletchto99/Pebble-liveconfig.git"
+  },
+  "author": "Matt Langlois <fletchto99@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fletchto99/Pebble-liveconfig/issues"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-ws": "^0.2.6"
+  },
+  "homepage": "https://github.com/fletchto99/Pebble-liveconfig#readme"
+}
