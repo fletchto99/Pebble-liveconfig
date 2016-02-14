@@ -13,6 +13,20 @@ app.get('/', function (request, response) {
     response.end();
 });
 
+app.get('/releases', function (request, response) {
+    response.writeHead(302, {
+        'Location': 'https://github.com/fletchto99/Pebble-liveconfig/releases'
+    });
+    response.end();
+});
+
+app.get('/example', function (request, response) {
+    response.writeHead(302, {
+        'Location': 'https://github.com/fletchto99/Pebble-liveconfig/tree/master/example'
+    });
+    response.end();
+});
+
 app.param('uuid', function (req, res, next, uuid) {
     req.uuid = uuid || null;
     return next();
