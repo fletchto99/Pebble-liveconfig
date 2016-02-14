@@ -8,7 +8,7 @@ var liveconfig = module.exports;
  */
 liveconfig.connect = function(uuid, onChange) {
     if (!uuid) {
-        throw new Error("Liveconfig requires a uuid UUID!");
+        throw new Error("Liveconfig requires a UUID!");
     }
     var websocket = new WebSocket("wss://liveconfig.fletchto99.com/receive/"+uuid+"/"+Pebble.getWatchToken());
 
