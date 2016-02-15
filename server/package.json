@@ -13,8 +13,8 @@
     "url": "https://github.com/fletchto99/Pebble-liveconfig/issues"
   },
   "dependencies": {
-    "express": "^4.13.3",
-    "express-ws": "^0.2.6"
+    "express": "^4.0.0",
+    "express-ws": "^1.0.0"
   },
   "homepage": "https://github.com/fletchto99/Pebble-liveconfig#readme"
 }
